@@ -10,8 +10,22 @@
 	</head>
 
 	<body>
-		<section class="input"></section>
-
-		<section class="output"><img src="muñeco.svg" alt="muñeco.svg" /></section>
+		<script src="logica.js"></script>
+		<main>
+			<section class="input">
+				<fieldset>
+					<textarea name="entrada" id="textin" cols="70" rows="30"></textarea>
+					<input type="submit" value="Encriptar" onclick="lecturaEncriptar()" />
+					<input
+						type="submit"
+						value="Desencriptar"
+						onclick="lecturaDesencriptar()"
+					/>
+				</fieldset>
+			</section>
+			<section class="output" id="output">
+				<img src="imagenes/1.png" alt="muñeco.svg" id="muneco" />
+			</section>
+		</main>
 	</body>
 </html>
