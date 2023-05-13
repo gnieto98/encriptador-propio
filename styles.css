@@ -12,7 +12,7 @@ body {
 }
 
 main {
-	width: 90%;
+	width: 940px;
 	height: 95%;
 	margin: 0 auto;
 	display: flex;
@@ -66,10 +66,16 @@ textarea {
 	color: azure;
 	border-radius: 20px;
 	border-style: none;
+	font-family: "JetBrains Mono", monospace;
+	font-family: "Montserrat", sans-serif;
 }
 
 .contenedorBotones > input + input {
 	background: #4a4a4a;
+}
+
+.contenedorBotones .copiar {
+	width: 100%;
 }
 
 .salida {

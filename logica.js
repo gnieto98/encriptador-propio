@@ -23,8 +23,6 @@ function encriptar(x) {
 	x = x.replaceAll("a", "ai");
 	x = x.replaceAll("o", "ober");
 	x = x.replaceAll("u", "ufat");
-
-	console.log(x);
 	document.getElementById("salida").innerHTML = x; //pone el mensaje del lado del resultado
 }
 function decriptar(x) {
