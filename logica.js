@@ -31,12 +31,12 @@ function decriptar(x) {
 	x = x.replaceAll("ai", "a");
 	x = x.replaceAll("ober", "o");
 	x = x.replaceAll("ufat", "u");
-	document.getElementById("textoSalida").innerHTML = x; //pone el mensaje del lado del resultado
+	document.getElementById("salida").innerHTML = x; //pone el mensaje del lado del resultado
 }
 
 let texto = "";
 
 function copiar() {
-	texto = document.getElementById("textoSalida").textContent; //toma el texto del text area
+	texto = document.getElementById("salida").textContent; //toma el texto del text area
 	navigator.clipboard.writeText(texto); //textContet se puede aplicar tanto arriba donde está ahora, como dentro de esta linea en el parentesis
 }
