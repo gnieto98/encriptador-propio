@@ -40,3 +40,5 @@ function copiar() {
 	texto = document.getElementById("salida").textContent; //toma el texto del text area
 	navigator.clipboard.writeText(texto); //textContet se puede aplicar tanto arriba donde está ahora, como dentro de esta linea en el parentesis
 }
+
+/* just hanging around */
